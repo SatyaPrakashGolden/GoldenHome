@@ -7,7 +7,7 @@ import Login from './common/login/Login';
 
 
 const App = () => {
-  const { currentUser, isAdmin, login, register, logout } = useContext(AuthContext);
+  const { currentUser, isAdmin } = useContext(AuthContext);
 
   console.log("app isAdmin  " + isAdmin );
   const Layout = ({ children }) => (
